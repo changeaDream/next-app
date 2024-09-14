@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Page() {
-  return <div>hello world</div>;
+  return <div className="bg-red-500 h-screen">hello world</div>;
 }
