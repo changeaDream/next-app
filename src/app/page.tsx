@@ -1,5 +1,7 @@
 import React from "react";
+import fifthGear from "/public/images/fifthGear.jpg";
+import Hero from "@/components/hero";
 
 export default function Page() {
-  return <div className="bg-red-500 h-screen">hello world</div>;
+  return <Hero imgUrl={fifthGear} altTxt="fifthGear" content="Fifth Gear" />;
 }
